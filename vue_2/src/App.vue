@@ -1,8 +1,12 @@
 <template>
+
+  <!-- 상단 링크 -->
   <nav>
+    <!-- router-link to=< >는 index.js의 routes에 있는 path: < >와 같아야 한다. -->
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
+
   <router-view/>
 </template>
 

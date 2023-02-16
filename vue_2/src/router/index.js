@@ -3,9 +3,10 @@ import HomeView from '../views/HomeView.vue'
 
 const routes = [
   {
+    // path: < >는 App.vue의 nav에 있는 router-link to=< >와 같아야 한다.
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView // HomeView는 views안에 들어있다.
   },
   {
     path: '/about',
