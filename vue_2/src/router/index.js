@@ -30,9 +30,38 @@ const routes = [
     path: '/databinding/input',
     name: 'DataBindingInputView',
     component: () => import(/* webpackChunkName: "1_databinding" */ '../views/1_databinding/DataBindingInputView.vue')
+  },
+  {
+    path: '/databinding/select',
+    name: 'DataBindingSelectView',
+    component: () => import(/* webpackChunkName: "1_databinding" */ '../views/1_databinding/DataBindingSelectView.vue')
+  },
+  {
+    path: '/databinding/checkBox',
+    name: 'DataBindingCheckBoxView',
+    component: () => import(/* webpackChunkName: "1_databinding" */ '../views/1_databinding/DataBindingCheckBoxView.vue')
+  },
+  {
+    path: '/databinding/radio',
+    name: 'DataBindingRadioView',
+    component: () => import(/* webpackChunkName: "1_databinding" */ '../views/1_databinding/DataBindingRadioView.vue')
+  },
+  {
+    path: '/databinding/attr',
+    name: 'DataBindingAttributeView',
+    component: () => import(/* webpackChunkName: "1_databinding" */ '../views/1_databinding/DataBindingAttributeView.vue')
+  },
+  {
+    path: '/databinding/list',
+    name: 'DataBindingListView',
+    component: () => import(/* webpackChunkName: "1_databinding" */ '../views/1_databinding/DataBindingListView.vue')
+  },
+  {
+    path: '/databinding/class',
+    name: 'DataBindingClassView',
+    component: () => import(/* webpackChunkName: "1_databinding" */ '../views/1_databinding/DataBindingClassView.vue')
   }
 ]
-
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
