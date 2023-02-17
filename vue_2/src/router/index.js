@@ -60,6 +60,11 @@ const routes = [
     path: '/databinding/class',
     name: 'DataBindingClassView',
     component: () => import(/* webpackChunkName: "1_databinding" */ '../views/1_databinding/DataBindingClassView.vue')
+  },
+  {
+    path: '/databinding/style',
+    name: 'DataBindingStyleView',
+    component: () => import(/* webpackChunkName: "1_databinding" */ '../views/1_databinding/DataBindingStyleView.vue')
   }
 ]
 const router = createRouter({

@@ -3,6 +3,7 @@
         <p>:class="{ 'key':[ture|false] } => 클래스이름:ture or false</p>
         <div :class="{ 'text-red':hasError, active: isActive }">클래스 바인딩</div>
         <div :class="{ 'text-red':isActive, active: hasError }">클래스 바인딩</div>
+        <div :class="class2">클래스 바인딩 2</div>
     </div>
 </template>
 <script>
@@ -11,7 +12,10 @@ export default {
     data() {
         return {
             isActive: false,
-            hasError: true
+            hasError: true,
+            class2: [
+                'text-red', 'isActive'
+            ]
         }
     },
     setup() {},

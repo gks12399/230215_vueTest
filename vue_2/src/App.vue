@@ -13,7 +13,8 @@
     <router-link to="/databinding/radio">Radio</router-link> |
     <router-link to="/databinding/attr">Attr</router-link> |
     <router-link to="/databinding/list">List</router-link> |
-    <router-link to="/databinding/class">Class</router-link>
+    <router-link to="/databinding/class">Class</router-link> |
+    <router-link to="/databinding/style">Style</router-link>
   </nav>
     <router-view/>
   </div>
